@@ -13,7 +13,9 @@ end
 pretty_print_nds(directors_database)
 
 def print_first_directors_movie_titles
-  dir_db_index = 0 
+  movies_ar = directors_database[0][:movies]
+  movies_ar_index = 0
+  
   while 
   directors_database
 end
