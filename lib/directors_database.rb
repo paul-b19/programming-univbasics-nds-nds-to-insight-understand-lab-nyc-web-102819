@@ -1,5 +1,5 @@
 require 'yaml'
-#require 'pp'
+require 'pp'
 
 def directors_database
 	rot13 = -> (s) { s.tr('A-Za-z', 'N-ZA-Mn-za-m') }
@@ -7,6 +7,6 @@ def directors_database
 end
 
 def pretty_print_nds
-  require 'pp'
+  #require 'pp'
   pp directors_database
 end
