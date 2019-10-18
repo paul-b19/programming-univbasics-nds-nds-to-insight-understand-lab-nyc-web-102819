@@ -20,3 +20,6 @@ def print_first_directors_movie_titles
     movies_ar_index += 1 
   end 
 end
+
+# checking the result
+print_first_directors_movie_titles
