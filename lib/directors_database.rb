@@ -7,5 +7,3 @@ def directors_database
   
   pp rot13
 end
-
-directors_database
